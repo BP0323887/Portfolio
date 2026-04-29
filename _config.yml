@@ -49,11 +49,11 @@ title-img: /assets/img/selfieoffice.png
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "lukedainewaldron@hotmail.co.uk"
+  email: lukedainewaldron@hotmail.co.uk
   github: https://github.com/BP0323887
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
-linkedin: "https://uk.linkedin.com/in/luke-waldron-a59b9b96"
+linkedin: https://uk.linkedin.com/in/luke-waldron-a59b9b96
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
