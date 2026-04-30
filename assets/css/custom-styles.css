@@ -1,4 +1,3 @@
-
 /* Homepage intro container */
 .home-intro {
   background: #ffffff;
@@ -6,6 +5,11 @@
   margin-bottom: 3rem;
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+
+  /* Match Beautiful Jekyll body text exactly */
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-size: 1.125rem;
+  color: var(--text-col);
 }
 
 /* Force two-column layout */
@@ -27,25 +31,26 @@
   }
 }
 
-/* Ensure homepage intro uses Beautiful Jekyll fonts */
-.home-intro {
-  font-family: inherit;
-  color: inherit;
-}
-
+/* Paragraph and list text alignment */
 .home-intro p,
-.home-intro li,
-.home-intro strong {
-  font-family: inherit;
-  font-size: 1rem;
-  line-height: 1.6;
+.home-intro li {
+  font-family: 'Lora', 'Times New Roman', serif;
+  line-height: 1.5;
 }
 
-/* Match heading typography */
+/* Headings: match Beautiful Jekyll headers */
 .home-intro h1,
 .home-intro h2,
-.home-intro h3 {
-  font-family: inherit;
+.home-intro h3,
+.home-intro h4 {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-top: 1.25rem;
+}
+
+/* Minor readability tweak */
+.home-intro strong {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
-  letter-spacing: -0.02em;
 }
