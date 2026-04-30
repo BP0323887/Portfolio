@@ -1,13 +1,29 @@
-/* Match Beautiful Jekyll fonts */
+
+/* Homepage intro container */
 .home-intro {
-  font-family: inherit;
+  background: #ffffff;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
 }
 
-.home-intro h1,
-.home-intro h2,
-.home-intro h3,
-.home-intro h4 {
-  font-family: inherit;
-  font-weight: 600;
+/* Force two-column layout */
+.home-intro.two-col {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 2rem;
 }
-``
+
+/* Defensive: ensure columns behave as blocks */
+.home-intro .col {
+  width: 100%;
+}
+
+/* Mobile fallback */
+@media (max-width: 768px) {
+  .home-intro.two-col {
+    grid-template-columns: 1fr !important;
+  }
+}
+
