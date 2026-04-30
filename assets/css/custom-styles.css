@@ -6,39 +6,41 @@
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
 
-  /* Match Beautiful Jekyll body text exactly */
-  font-family: 'Lora', 'Times New Roman', serif;
+  /* Match hero subtitle font */
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.5;
   color: var(--text-col);
 }
 
-/* Force two-column layout */
+/* Two-column layout */
 .home-intro.two-col {
   display: grid !important;
   grid-template-columns: 1fr 1fr !important;
   gap: 2rem;
 }
 
-/* Defensive: ensure columns behave as blocks */
 .home-intro .col {
   width: 100%;
 }
 
-/* Mobile fallback */
+/* Mobile */
 @media (max-width: 768px) {
   .home-intro.two-col {
     grid-template-columns: 1fr !important;
   }
 }
 
-/* Paragraph and list text alignment */
+/* Body copy */
 .home-intro p,
 .home-intro li {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
   line-height: 1.5;
 }
 
-/* Headings: match Beautiful Jekyll headers */
+/* Section headings */
 .home-intro h1,
 .home-intro h2,
 .home-intro h3,
@@ -49,8 +51,9 @@
   margin-top: 1.25rem;
 }
 
-/* Minor readability tweak */
+/* Sub-head labels (e.g. Data & Analytics) */
 .home-intro strong {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
 }
+``
