@@ -26,3 +26,26 @@
     grid-template-columns: 1fr !important;
   }
 }
+
+/* Ensure homepage intro uses Beautiful Jekyll fonts */
+.home-intro {
+  font-family: inherit;
+  color: inherit;
+}
+
+.home-intro p,
+.home-intro li,
+.home-intro strong {
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Match heading typography */
+.home-intro h1,
+.home-intro h2,
+.home-intro h3 {
+  font-family: inherit;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
