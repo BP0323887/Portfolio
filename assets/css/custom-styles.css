@@ -1,4 +1,9 @@
 
+body {
+  background: red !important;
+}
+
+
 /* Homepage intro container */
 .home-intro {
   background: #ffffff;
