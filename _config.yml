@@ -20,8 +20,8 @@ author: Luke Waldron
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Portfolio HomePage: "https://bp0323887.github.io/Portfolio/"
+    Portfolio HomePage: "https://bp0323887.github.io/Portfolio/"
+    About Me: "aboutme"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
