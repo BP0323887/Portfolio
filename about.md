@@ -1,7 +1,7 @@
 ---
-layout: base
-title: About me
-subtitle: Why you'd want to go on a date with me
+layout: home
+title: About Me
+subtitle: My skills and Experience
 ---
 
 ## About me
