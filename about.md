@@ -1,7 +1,7 @@
 ---
 layout: home
 title: About Me
-subtitle: My skills and Experience
+subtitle: My Skills and Experience
 ---
 
 ## About me
