@@ -1,25 +1,13 @@
-
+/* Match Beautiful Jekyll fonts */
 .home-intro {
-  background: #ffffff;
-  padding: 2rem;
-  margin-bottom: 3rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  font-family: inherit;
 }
 
-.two-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+.home-intro h1,
+.home-intro h2,
+.home-intro h3,
+.home-intro h4 {
+  font-family: inherit;
+  font-weight: 600;
 }
-
-.home-intro h2 {
-  margin-top: 0;
-}
-
-/* Mobile behaviour */
-@media (max-width: 768px) {
-  .two-col {
-    grid-template-columns: 1fr;
-  }
-}
+``
