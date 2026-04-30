@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About me
-subtitle: What motivates me and who I am
 ---
 
 My name is **Luke Waldron** and I like to think of myself as a *pragmatic data professional* guided by **sound judgement** and a strong sense of **doing the right thing**, both in my professional work and my personal life.
