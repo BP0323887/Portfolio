@@ -6,10 +6,10 @@
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
 
-  /* Match hero subtitle font */
+  /* Match hero subtitle font, but scaled down */
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 1.125rem;
-  font-weight: 300;
+  font-size: 1rem;          /* smaller than subtitle */
+  font-weight: 300;         /* same as subtitle */
   line-height: 1.5;
   color: var(--text-col);
 }
@@ -21,6 +21,7 @@
   gap: 2rem;
 }
 
+/* Columns */
 .home-intro .col {
   width: 100%;
 }
@@ -32,15 +33,16 @@
   }
 }
 
-/* Body copy */
+/* Paragraphs and lists inside the card */
 .home-intro p,
 .home-intro li {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;
 }
 
-/* Section headings */
+/* Headings inside the card */
 .home-intro h1,
 .home-intro h2,
 .home-intro h3,
@@ -51,9 +53,8 @@
   margin-top: 1.25rem;
 }
 
-/* Sub-head labels (e.g. Data & Analytics) */
+/* Section labels like "Data & Analytics" */
 .home-intro strong {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
 }
-``
